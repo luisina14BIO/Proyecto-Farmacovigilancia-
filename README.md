@@ -20,7 +20,7 @@ A través de un pipeline automatizado, se analizan las tendencias de seguridad b
 El proyecto sigue el ciclo clásico de un pipeline de analítica de datos:
 
 1. **Extracción (API Ingestión):** Conexión programática a la API pública openFDA (`drug/event.json`) mediante Python. Se extrajo una muestra de **más de 4,000 registros** de eventos adversos comprendidos entre noviembre de 2013 y junio de 2014.
-2. **Transformación (Data Wrangling):** Normalización de texto a mayúsculas, traducción de códigos numéricos, gestión de nulos (*imputation*) y desanidación de estructuras JSON (transformando reportes con múltiples síntomas en filas individuales).
+2. **Transformación (Data Wrangling):** Normalización de texto a mayúsculas, traducción de códigos numéricos, gestión de nulos (*imputation*) y des anidación de estructuras JSON (transformando reportes con múltiples síntomas en filas individuales).
 3. **Carga y Modelado (Data Modeling):** Diseño e implementación de un **Modelo en Estrella de 5 tablas** (1 tabla de hechos y 4 dimensiones) en SQL Server con carga automatizada.
 4. **Visualización y Analytics:** Conexión de Power BI a SQL Server, creación de tabla calendario nativa y centralización de la lógica de negocio mediante medidas DAX en una tabla única de métricas.
 
