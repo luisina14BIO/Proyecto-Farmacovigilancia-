@@ -27,7 +27,7 @@ El proyecto sigue el ciclo clásico de un pipeline de analítica de datos:
 ---
 
 ## 📐 Variables del Estudio y Metodología
-* **Variable Independiente:** Tipo de analgésico / principio activo (Segmentación por competidores: *Ibuprofen, Naproxen, Acetaminophen, Tramadol* y por familias: *AINEs vs Opioides*).
+* **Variable Independiente:** Tipo de analgésico / principio activo (Segmentación por competidores: *Ibuprofen, Naproxen, Acetaminophen, Tramadol*).
 * **Variables Dependientes:** 
   * Reacción adversa / Síntoma (estandarizada bajo terminología internacional **MedDRA**).
   * Gravedad del desenlace (Binarizada en: `provoco_muerte` [sí/no] y `provoco_hospitalizacion` [sí/no]).
