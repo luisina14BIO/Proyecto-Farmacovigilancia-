@@ -43,17 +43,9 @@ El proyecto sigue el ciclo clásico de un pipeline de analítica de datos:
 
 ---
 
-## 🖼️ Vista del Dashboard
-<img width="1527" height="816" alt="Captura de pantalla 2026-06-07 165935" src="https://github.com/user-attachments/assets/42793b92-f1aa-4f83-8e58-5897ad893ec5" />
-
-*(Tip: Reemplaza esta línea y la imagen de abajo con una captura de pantalla real de tus pestañas de Power BI)*
-![Preview del Dashboard](https://placeholder.com)
-
----
-
-## 📂 Estructura del Repositorio
+## 📂 Archivo del Dashboard
 * `/Formato_PBIX/`: Contiene el archivo clásico `.pbix` listo para descargar y ejecutar de forma local.
 * `/Formato_PBIP/`: Proyecto estructurado de Power BI en archivos de texto, ideal para el seguimiento detallado de control de versiones y visualización de medidas DAX en código.
-
+* /Capturas de pantalla/: Imagenes png y video para vista rapida del Dashboard creado
 ---
 *Proyecto Final presentado para la certificación en **Data Analytics**.*
