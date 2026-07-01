@@ -8,7 +8,7 @@ A través de un pipeline automatizado, se analizan las tendencias de seguridad b
 ---
 
 ## 🚀 Tecnologías y Herramientas Utilizadas
-* **Python (Requests, Pandas):** Ingestión de datos, desanidación (*unnesting*) de JSON complejos y limpieza de datos.
+* **Python (Requests, Pandas):** Ingestión de datos, des anidación (*unnesting*) de JSON complejos y limpieza de datos.
 * **SQL Server (SSMS):** Almacenamiento, diseño de arquitectura relacional y esquema en estrella.
 * **SQLAlchemy / PyODBC:** Automatización de carga de datos desde Python a SQL.
 * **Power BI:** Modelado analítico, cálculos DAX avanzados y visualización interactiva de datos (*Storytelling*).
@@ -27,7 +27,7 @@ El proyecto sigue el ciclo clásico de un pipeline de analítica de datos:
 ---
 
 ## 📐 Variables del Estudio y Metodología
-* **Variable Independiente:** Tipo de analgésico / principio activo (Segmentación por competidores: *Ibuprofen, Naproxen, Acetaminophen, Tramadol*).
+* **Variable Independiente:** Tipo de analgésico / principio activo (Segmentación por competidores: *Ibuprofen, Naproxen, Acetaminophen, Tramadol* y por familias: *AINEs vs Opioides*).
 * **Variables Dependientes:** 
   * Reacción adversa / Síntoma (estandarizada bajo terminología internacional **MedDRA**).
   * Gravedad del desenlace (Binarizada en: `provoco_muerte` [sí/no] y `provoco_hospitalizacion` [sí/no]).
@@ -43,9 +43,10 @@ El proyecto sigue el ciclo clásico de un pipeline de analítica de datos:
 
 ---
 
-## 📂 Archivo del Dashboard
+## 📂 Vista del Dashboard 
 * `/Formato_PBIX/`: Contiene el archivo clásico `.pbix` listo para descargar y ejecutar de forma local.
 * `/Formato_PBIP/`: Proyecto estructurado de Power BI en archivos de texto, ideal para el seguimiento detallado de control de versiones y visualización de medidas DAX en código.
-* /Capturas de pantalla/: Imagenes png y video para vista rapida del Dashboard creado
+* `/Capturas de pantalla y video/`: Para visualización rápida
+  
 ---
 *Proyecto Final presentado para la certificación en **Data Analytics**.*
